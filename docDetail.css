@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+  }
+
+
+
+
+
+.doctor-profile {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  padding: 40px;
+  margin: auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.detail-profile-pic>img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 5px solid rgb(254, 243, 223);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.4);
+}
+
+.profile-info{
+    width: 50%;
+    margin: auto;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.fees {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.appointment-btn {
+  background-color: var(--button-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.appointment-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.ratings-section h3 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.ratings-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rating-card {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.rating-pic {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.rating-pic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.rating-info h4 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.rating-info p {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.stars {
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+
+.appointment-options {
+    margin: 10px 0;
+  }
+  
+  .appointment-options label {
+    margin-right: 15px;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .symptoms {
+    margin: 10px 0;
+  }
+  
+  .symptoms label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .symptoms input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 5px;
+  }
+  
+  .appointment-time {
+    margin: 10px 0;
+  }
+  
+  .appointment-time label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .appointment-time select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 5px;
+  }
