@@ -86,7 +86,18 @@ const handleAppoinment = () => {
         
     })
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => {
+        if(data){
+            const parent = document.getElementById('success');
+            parent.innerHTML = `
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>Success!</strong> Your appointment has been successfully taken.
+        </div>
+      `;
+
+      $('#exampleModal').modal('hide');
+        }
+    })
 
 }
 
